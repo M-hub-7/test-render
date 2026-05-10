@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "base de donne pour le projet note",
+  "keywords": [
+    "NoteBackend"
+  ],
+  "homepage": "https://github.com/M-hub-7/projet-test#readme",
+  "bugs": {
+    "url": "https://github.com/M-hub-7/projet-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-hub-7/projet-test.git"
+  },
+  "license": "MIT",
+  "author": "Matti Luukkainen",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
